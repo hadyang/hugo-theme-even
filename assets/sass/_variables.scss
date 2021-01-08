@@ -53,10 +53,7 @@ $global-container-padding: 0 20px !default;
 $global-lineheight: 1.5 !default;
 
 // Font family of the site.
-$global-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-
-// Serif font family of the site.
-$global-serif-font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+$global-font-family: Roboto, Helvetica, Tahoma, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Noto Sans CJK", sans-serif;
 
 // Background color of the site.
 $global-background: $white !default;
@@ -190,7 +187,7 @@ $code-color: #000000 !default;
 $code-font-size: 0.9em !default;
 
 // Font family of the code.
-$code-font-family: "Menlo", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace !default;
+$code-font-family: JetBrainsMono, "Source Code Pro", Monaco, Menlo, Consolas, "Courier New", Courier, monospace;
 
 // Color of code highlight, solarized.
 $code-highlight-color: (
